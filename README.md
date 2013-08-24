@@ -6,12 +6,12 @@ Version: 2.0
 Date: August 22, 2013  
 Author: Paul K. Courtney  
 
-The two source datasets were downloaded from the CIBMTR portal as Excel XLSX files, which were then saved as CSV files for import into R. 
-
 ```{r}
-require(lubridate)
-require(plyr)
+require(lubridate) # Makes dealing with dates easier
+require(plyr) # Tool for general data munging
 ```
+
+The two source datasets were downloaded from the CIBMTR portal as Excel XLSX files, which were then saved as CSV files for import into R. 
 
 First, get the data read into dataframes; version 2 of the csv's indicates that the date columns
 have all been formatted using Excel in the form MM/DD/YYYY since I found that R interpreted a 
