@@ -13,8 +13,8 @@ require(plyr)
 # have all been formatted using Excel in the form MM/DD/YYYY since I found that R interpreted a 
 # two year date of "56" as "2056".
 
-PreTED = read.csv("PreTED2.csv")
-PrePostTED = read.csv("PostTED2.csv")
+PreTED = read.csv("data/Raw Data/PreTED2.csv")
+PostTED = read.csv("data/Raw Data/PostTED2.csv")
 
 # Read in the date column names for Pre and Post
 
